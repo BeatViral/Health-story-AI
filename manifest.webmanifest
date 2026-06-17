@@ -1,0 +1,1 @@
+{"name":"HealthStory AI","short_name":"HealthStory","description":"A private local-first health journal.","start_url":".","display":"standalone","background_color":"#FAFAF7","theme_color":"#155E63","lang":"en","scope":"/Health-story-AI/","icons":[{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
