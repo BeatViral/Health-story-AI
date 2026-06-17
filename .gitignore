@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+dist/
+apps/web/dist/
+apps/extension/dist/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+plan.txt

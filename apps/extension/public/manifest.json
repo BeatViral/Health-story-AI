@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "HealthStory Quick Capture",
+  "description": "Quickly save Body Signals, stress snapshots, medication notes, appointment questions and private reflections locally.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "HealthStory Quick Capture",
+    "default_popup": "index.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage", "downloads"],
+  "icons": {
+    "128": "icons/icon.svg"
+  }
+}
