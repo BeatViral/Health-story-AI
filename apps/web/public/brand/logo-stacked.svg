@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="title desc">
+  <title id="title">HealthStory AI stacked logo</title>
+  <desc id="desc">Stacked logo for HealthStory AI.</desc>
+  <rect width="720" height="760" rx="72" fill="#FBFAF4"/>
+  <image href="logo-mark.svg" x="160" y="80" width="400" height="400"/>
+  <text x="360" y="586" text-anchor="middle" fill="#10282B" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="850">HealthStory</text>
+  <text x="360" y="654" text-anchor="middle" fill="#075E67" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800">AI</text>
+</svg>

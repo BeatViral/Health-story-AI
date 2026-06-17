@@ -1,6 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#155E63"/>
-  <path d="M134 264c55-104 107-104 158 0 28 57 56 70 86 18" fill="none" stroke="#D8EFE8" stroke-width="36" stroke-linecap="round"/>
-  <circle cx="172" cy="190" r="34" fill="#F7F4EE"/>
-  <circle cx="340" cy="320" r="34" fill="#2F8F83"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">HealthStory AI logo mark</title>
+  <desc id="desc">A luminous rounded square with an H-shaped health timeline signal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="48" x2="440" y2="464" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#073D45"/>
+      <stop offset=".44" stop-color="#08737C"/>
+      <stop offset=".72" stop-color="#19B6A7"/>
+      <stop offset="1" stop-color="#6D5DFC"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="116" y1="262" x2="396" y2="262" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF8E8"/>
+      <stop offset=".5" stop-color="#DFFFF4"/>
+      <stop offset="1" stop-color="#9FF3D6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <path d="M96 372V140h52v96h80v-96h52v232h-52v-94h-80v94H96Z" fill="#FDFBF3" opacity=".96"/>
+  <path d="M116 278c44-85 91-85 138 0 28 51 54 64 78 25 13-21 25-35 64-35" fill="none" stroke="url(#signal)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="398" cy="268" r="27" fill="#F3B640"/>
+  <circle cx="398" cy="268" r="11" fill="#FFF8E8"/>
 </svg>

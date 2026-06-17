@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0" stop-color="#FBFAF4"/>
+      <stop offset=".42" stop-color="#DFFFF4"/>
+      <stop offset=".72" stop-color="#DDE7FF"/>
+      <stop offset="1" stop-color="#FFF0CC"/>
+    </linearGradient>
+    <linearGradient id="word" x1="210" y1="180" x2="960" y2="380">
+      <stop stop-color="#10282B"/>
+      <stop offset=".58" stop-color="#075E67"/>
+      <stop offset="1" stop-color="#1FB6AA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="110" r="190" fill="#6D5DFC" opacity=".13"/>
+  <circle cx="106" cy="560" r="220" fill="#1FB6AA" opacity=".16"/>
+  <rect x="84" y="130" width="260" height="260" rx="62" fill="#075E67"/>
+  <path d="M136 314V206h27v44h38v-44h27v108h-27v-43h-38v43h-27Z" fill="#FFF8E8"/>
+  <path d="M138 270c22-42 46-42 69 0 14 25 27 31 39 12 7-11 13-18 32-18" fill="none" stroke="#9FF3D6" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="280" cy="264" r="15" fill="#F3B640"/>
+  <text x="388" y="255" fill="url(#word)" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="850">HealthStory AI</text>
+  <text x="392" y="340" fill="#31565A" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Capture what your body is trying to tell you.</text>
+  <text x="392" y="410" fill="#075E67" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">No login. No cloud database. Your story stays on your device.</text>
+</svg>

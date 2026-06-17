@@ -71,6 +71,7 @@ const db = new HealthStoryDb();
 const blankStore: Store = { bodySignals: [], healthEntries: [], stressEntries: [], medications: [], supplements: [], allergies: [], appointments: [] };
 const id = () => crypto.randomUUID();
 const today = () => new Date().toISOString().slice(0, 10);
+const brandAsset = (file: string) => `${import.meta.env.BASE_URL}${file}`;
 
 function useHealthStory() {
   const [store, setStore] = useState<Store>(blankStore);
@@ -176,7 +177,7 @@ function PrivacySelect(props: React.SelectHTMLAttributes<HTMLSelectElement>) {
 function LandingPage() {
   return (
     <main className="landing">
-      <nav className="landing-nav"><strong>HealthStory AI</strong><Link to="/app" className="button primary">Start your HealthStory</Link></nav>
+      <nav className="landing-nav"><Link to="/" className="wordmark"><img src={brandAsset("brand/logo-mark.svg")} alt="" /><span>HealthStory AI</span></Link><Link to="/app" className="button primary">Start your HealthStory</Link></nav>
       <section className="hero">
         <div>
           <p className="eyebrow">A personal record of your body's signals over time</p>
@@ -260,7 +261,7 @@ function AppShell({ children, toast }: React.PropsWithChildren<{ toast: string }
     ["Backup & Export", "/app/backup", Archive],
     ["Settings", "/app/settings", Bell]
   ] as const;
-  return <div className="app-shell"><aside><Link to="/" className="brand">HealthStory AI</Link>{nav.map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} />{label}</NavLink>)}</aside><main className="app-main">{children}</main><nav className="mobile-nav">{nav.slice(0, 5).map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} /><span>{label}</span></NavLink>)}</nav>{toast && <div className="toast">{toast}</div>}</div>;
+  return <div className="app-shell"><aside><Link to="/" className="brand"><img src={brandAsset("brand/logo-mark.svg")} alt="" /><span>HealthStory AI</span></Link>{nav.map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} />{label}</NavLink>)}</aside><main className="app-main">{children}</main><nav className="mobile-nav">{nav.slice(0, 5).map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} /><span>{label}</span></NavLink>)}</nav>{toast && <div className="toast">{toast}</div>}</div>;
 }
 
 function Dashboard({ store, actions }: { store: Store; actions: ReturnType<typeof useHealthStory> }) {
