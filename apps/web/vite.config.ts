@@ -15,9 +15,9 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "VitalTracker",
-        short_name: "VitalTracker",
-        description: "A private local-first health tracker for symptoms, medications and doctor-ready summaries.",
+        name: "HealthStory AI",
+        short_name: "HealthStory",
+        description: "A private local-first health journal for body signals and doctor-ready summaries.",
         theme_color: "#155E63",
         background_color: "#FAFAF7",
         display: "standalone",

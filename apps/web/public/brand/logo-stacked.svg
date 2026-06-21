@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="title desc">
-  <title id="title">VitalTracker stacked logo</title>
-  <desc id="desc">Stacked logo for VitalTracker.</desc>
+  <title id="title">HealthStory AI stacked logo</title>
+  <desc id="desc">Stacked logo for HealthStory AI.</desc>
   <rect width="720" height="760" rx="72" fill="#FFF8EE"/>
   <image href="logo-mark.svg" x="160" y="82" width="400" height="400"/>
-  <text x="360" y="608" text-anchor="middle" fill="#17120F" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="850">VitalTracker</text>
+  <text x="360" y="596" text-anchor="middle" fill="#17120F" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="850">HealthStory</text>
+  <text x="360" y="664" text-anchor="middle" fill="#0F6E56" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800">AI</text>
 </svg>

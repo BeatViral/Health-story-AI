@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">VitalTracker logo mark</title>
-  <desc id="desc">A premium V-shaped mark with a heartbeat signal.</desc>
+  <title id="title">HealthStory AI logo mark</title>
+  <desc id="desc">A premium H-shaped health story mark with a body signal timeline.</desc>
   <defs>
     <linearGradient id="bg" x1="58" y1="46" x2="454" y2="468" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#17120F"/>
@@ -19,9 +19,9 @@
     </filter>
   </defs>
   <rect width="512" height="512" rx="116" fill="url(#bg)"/>
-  <path d="M106 126h70l80 217 80-217h70L292 386h-72L106 126Z" fill="#FFF8E8"/>
-  <path d="M108 276c42-74 82-74 121 0 23 43 45 54 66 22 13-20 25-33 57-33h42" fill="none" stroke="url(#pulse)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-  <circle cx="398" cy="265" r="27" fill="#F3B640"/>
-  <circle cx="398" cy="265" r="11" fill="#FFF8E8"/>
+  <path d="M96 372V140h52v96h80v-96h52v232h-52v-94h-80v94H96Z" fill="#FFF8E8"/>
+  <path d="M116 278c44-85 91-85 138 0 28 51 54 64 78 25 13-21 25-35 64-35" fill="none" stroke="url(#pulse)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <circle cx="398" cy="268" r="27" fill="#F3B640"/>
+  <circle cx="398" cy="268" r="11" fill="#FFF8E8"/>
   <path d="M94 104c45-34 99-51 162-51 67 0 123 19 168 56" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity=".18"/>
 </svg>

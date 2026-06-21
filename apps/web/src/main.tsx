@@ -178,54 +178,54 @@ function LandingPage() {
   return (
     <main className="vt-page">
       <nav className="vt-nav">
-        <Link to="/" className="vt-logo" aria-label="VitalTracker home"><span className="vt-logo-mark">V</span><span>Vital<span>Tracker</span></span></Link>
+        <Link to="/" className="vt-logo" aria-label="HealthStory AI home"><span className="vt-logo-mark">H</span><span>HealthStory <span>AI</span></span></Link>
         <div className="vt-nav-links"><a href="#features">Features</a><a href="#how">How it works</a><a href="#privacy">Privacy</a><a href="#pricing">Pricing</a></div>
         <Link to="/app" className="vt-nav-cta">Try it free</Link>
       </nav>
 
       <section className="vt-hero">
         <div className="vt-hero-copy">
-          <div className="vt-eyebrow"><ShieldCheck size={16} /> Built for adults 55+ and families who care</div>
-          <h1>Walk into every doctor visit with the story your memory cannot hold.</h1>
-          <p className="vt-hero-sub">VitalTracker helps you log symptoms, medications, energy, sleep, allergies, and questions in plain language, then turns the last 30 to 90 days into a doctor-ready summary.</p>
-          <div className="vt-actions"><Link to="/app" className="vt-btn vt-btn-primary">Start tracking today</Link><a href="#how" className="vt-btn vt-btn-ghost">See how it works</a></div>
+          <div className="vt-eyebrow"><ShieldCheck size={16} /> Private local-first health journaling</div>
+          <h1>Capture what your body is trying to tell you.</h1>
+          <p className="vt-hero-sub">HealthStory AI helps you track body signals, symptoms, stress, medications, allergies, appointments and private notes over time, then export a clear doctor-ready summary when you choose.</p>
+          <div className="vt-actions"><Link to="/app" className="vt-btn vt-btn-primary">Start your HealthStory</Link><a href="#how" className="vt-btn vt-btn-ghost">See how it works</a></div>
           <div className="vt-trust-row"><span>No login required</span><span>Private on your device</span><span>Free to start</span></div>
         </div>
-        <div className="vt-device-stage" aria-label="VitalTracker app preview">
+        <div className="vt-device-stage" aria-label="HealthStory AI app preview">
           <div className="vt-phone">
-            <div className="vt-phone-top"><span>My health today</span><strong>June 21</strong></div>
+            <div className="vt-phone-top"><span>Today's Body Signal</span><strong>June 21</strong></div>
             <div className="vt-vitals-card vt-featured">
-              <div><small>Energy level</small><strong>Better than last week</strong></div>
+              <div><small>Burning feet</small><strong>Severity trend 4-7/10</strong></div>
               <div className="vt-bars"><i style={{ height: "68%" }} /><i style={{ height: "84%" }} /><i style={{ height: "54%" }} /><i style={{ height: "38%" }} /></div>
             </div>
-            <div className="vt-vitals-card"><small>Today's medications</small><div className="vt-chip-row"><span>Metformin</span><span>Lisinopril</span><span>Vitamin D</span></div></div>
-            <div className="vt-vitals-card"><small>Doctor summary</small><strong>Ready to share</strong><p>Last 90 days reviewed and private notes excluded.</p></div>
+            <div className="vt-vitals-card"><small>Context tracked</small><div className="vt-chip-row"><span>Sleep</span><span>Stress</span><span>Medication</span></div></div>
+            <div className="vt-vitals-card"><small>Doctor summary</small><strong>Ready to review</strong><p>Private notes excluded until you choose otherwise.</p></div>
           </div>
           <div className="vt-floating-note"><FileText size={18} /><span>Printable summary generated</span></div>
         </div>
       </section>
 
       <section className="vt-proof">
-        {["Daily check-ins", "Medication clarity", "Doctor-ready summaries", "Local-first privacy"].map((item) => <div key={item}><strong>{item}</strong><span>Designed for real appointments</span></div>)}
+        {["Body Signals", "Private timeline", "Doctor-ready summaries", "Local-first privacy"].map((item) => <div key={item}><strong>{item}</strong><span>Your story stays in your control</span></div>)}
       </section>
 
       <section className="vt-section vt-bento" id="features">
-        <div className="vt-section-head"><p>What VitalTracker does</p><h2>Everything your future appointment wishes you remembered.</h2></div>
+        <div className="vt-section-head"><p>What HealthStory AI does</p><h2>Turns scattered memory into a clear health story.</h2></div>
         <div className="vt-bento-grid">
-          <article className="vt-bento-card wide"><Activity /><h3>Simple daily symptom logging</h3><p>Track pain, energy, sleep, mood, body changes, and worry level in plain words with large, easy tap targets.</p></article>
-          <article className="vt-bento-card"><Pill /><h3>Medication tracking</h3><p>Keep current medications, supplements, dose changes, side effects, and stopped items in one calm record.</p></article>
-          <article className="vt-bento-card"><FileText /><h3>Doctor summaries</h3><p>Export a clean visit summary with trends, questions, allergies, and what changed over time.</p></article>
+          <article className="vt-bento-card wide"><Activity /><h3>Guided Body Signal tracking</h3><p>Record symptoms, stress, sleep, mood, body changes and worry level in plain words before the details fade.</p></article>
+          <article className="vt-bento-card"><Pill /><h3>Medication and allergy record</h3><p>Keep medications, supplements, allergies, dose changes and reactions in one calm private record.</p></article>
+          <article className="vt-bento-card"><FileText /><h3>Doctor-ready summaries</h3><p>Export a patient-approved summary with timelines, severity, triggers, questions and private sections excluded.</p></article>
           <article className="vt-bento-card"><CalendarDays /><h3>Appointment prep</h3><p>Capture questions beforehand and remember what the provider said after the appointment.</p></article>
-          <article className="vt-bento-card wide dark"><Lock /><h3>Your record stays yours</h3><p>No account. No cloud health database. Back up and share only what you choose.</p></article>
+          <article className="vt-bento-card wide dark"><Lock /><h3>Your health story stays on your device</h3><p>No account. No cloud health database. Back up and share only what you choose.</p></article>
         </div>
       </section>
 
       <section className="vt-section vt-how" id="how">
-        <div className="vt-section-head"><p>How it works</p><h2>Simple enough to use every day. Useful enough to bring to care.</h2></div>
+        <div className="vt-section-head"><p>How it works</p><h2>Notice, capture, understand, and share only what you choose.</h2></div>
         <div className="vt-steps">
           {[
-            ["1", "Log how you feel", "A two-minute check-in records symptoms, medication notes, sleep, stress, energy, and questions."],
-            ["2", "See the pattern", "VitalTracker builds a timeline so you can spot what changed instead of guessing from memory."],
+            ["1", "Capture a Body Signal", "Something changes in your body, mood, sleep, stress or medication. Add it while it is fresh."],
+            ["2", "Build the timeline", "HealthStory AI turns check-ins into a running story so you can see what changed over days, weeks and months."],
             ["3", "Share only what helps", "Generate a doctor-ready summary while private notes stay excluded by default."]
           ].map(([num, title, copy]) => <article key={num}><span>{num}</span><h3>{title}</h3><p>{copy}</p></article>)}
         </div>
@@ -235,7 +235,7 @@ function LandingPage() {
         <div>
           <p className="vt-kicker">Privacy-first by design</p>
           <h2>Your health information belongs to you. Full stop.</h2>
-          <p>VitalTracker stores your journal locally on your device. It is built to help you remember and explain, not to diagnose, prescribe, or replace medical care.</p>
+          <p>HealthStory AI stores your journal locally on your device. It helps you remember and explain your own information, not diagnose, prescribe, or replace medical care.</p>
         </div>
         <div className="vt-privacy-panel">
           {["No login required", "No cloud health database", "Delete local data anytime", "Backup before switching devices"].map((item) => <span key={item}><ShieldCheck size={17} />{item}</span>)}
@@ -243,25 +243,25 @@ function LandingPage() {
       </section>
 
       <section className="vt-section vt-testimonials">
-        <div className="vt-section-head"><p>Real-life use case</p><h2>For people who freeze, forget, or feel rushed at appointments.</h2></div>
+        <div className="vt-section-head"><p>Real-life use case</p><h2>For people who forget the details their doctor needs.</h2></div>
         <div className="vt-testimonial-grid">
-          <article><div className="vt-stars">★★★★★</div><p>"I finally had dates, patterns, medication changes, and questions in one place. The appointment felt calmer because I was prepared."</p><strong>Gloria R.</strong><span>67, retired teacher</span></article>
-          <article><div className="vt-stars">★★★★★</div><p>"I stopped guessing whether symptoms were better or worse. VitalTracker gave me a simple timeline I could actually talk through."</p><strong>Bill M.</strong><span>71, retired firefighter</span></article>
+          <article><div className="vt-stars">★★★★★</div><p>"I finally had dates, patterns, medication changes, and questions in one place. The appointment felt calmer because I was prepared."</p><strong>Early user story</strong><span>Doctor visit preparation</span></article>
+          <article><div className="vt-stars">★★★★★</div><p>"I stopped guessing whether symptoms were better or worse. HealthStory gave me a simple timeline I could actually talk through."</p><strong>Early user story</strong><span>Long-term symptom tracking</span></article>
         </div>
       </section>
 
       <section className="vt-section vt-pricing" id="pricing">
-        <div className="vt-section-head"><p>Launch plan</p><h2>Start free. Upgrade when summaries and exports become part of your routine.</h2></div>
+        <div className="vt-section-head"><p>Launch plan</p><h2>Start local and free. Upgrade only when better summaries and exports are worth it.</h2></div>
         <div className="vt-pricing-grid">
-          <article><h3>Free Local App</h3><strong>$0</strong><p>Daily logs, medication/allergy record, privacy buckets, backup, and basic doctor summary.</p><Link to="/app" className="vt-btn vt-btn-ghost">Start free</Link></article>
-          <article className="pro"><h3>VitalTracker Pro</h3><strong>$5/mo</strong><p>Advanced summaries, export templates, family profiles, extension capture, and future encrypted backup options.</p><Link to="/app" className="vt-btn vt-btn-primary">Join early access</Link></article>
+          <article><h3>Free Local App</h3><strong>$0</strong><p>Body Signals, check-ins, medications, allergies, privacy buckets, backup, and basic doctor summary.</p><Link to="/app" className="vt-btn vt-btn-ghost">Start free</Link></article>
+          <article className="pro"><h3>HealthStory Pro</h3><strong>$5/mo</strong><p>Advanced summaries, export templates, family profiles, extension capture, and future encrypted backup options.</p><Link to="/app" className="vt-btn vt-btn-primary">Join early access</Link></article>
         </div>
       </section>
 
       <section className="vt-final">
-        <h2>Start feeling more prepared before your next appointment.</h2>
-        <p>Free to try. No account needed. Your health record stays on your device.</p>
-        <Link to="/app" className="vt-btn vt-btn-primary">Start tracking today</Link>
+        <h2>Your body remembers. Now your journal does too.</h2>
+        <p>Free to try. No account needed. Your health story stays on your device.</p>
+        <Link to="/app" className="vt-btn vt-btn-primary">Start your HealthStory</Link>
       </section>
     </main>
   );
@@ -301,7 +301,7 @@ function AppShell({ children, toast }: React.PropsWithChildren<{ toast: string }
     ["Backup & Export", "/app/backup", Archive],
     ["Settings", "/app/settings", Bell]
   ] as const;
-  return <div className="app-shell"><aside><Link to="/" className="brand"><span className="vt-logo-mark">V</span><span>VitalTracker</span></Link>{nav.map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} />{label}</NavLink>)}</aside><main className="app-main">{children}</main><nav className="mobile-nav">{nav.slice(0, 5).map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} /><span>{label}</span></NavLink>)}</nav>{toast && <div className="toast">{toast}</div>}</div>;
+  return <div className="app-shell"><aside><Link to="/" className="brand"><span className="vt-logo-mark">H</span><span>HealthStory AI</span></Link>{nav.map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} />{label}</NavLink>)}</aside><main className="app-main">{children}</main><nav className="mobile-nav">{nav.slice(0, 5).map(([label, to, Icon]) => <NavLink key={to} to={to} end={to === "/app"}><Icon size={18} /><span>{label}</span></NavLink>)}</nav>{toast && <div className="toast">{toast}</div>}</div>;
 }
 
 function Dashboard({ store, actions }: { store: Store; actions: ReturnType<typeof useHealthStory> }) {

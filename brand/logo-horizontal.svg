@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 320" role="img" aria-labelledby="title desc">
-  <title id="title">VitalTracker horizontal logo</title>
-  <desc id="desc">VitalTracker wordmark with the V heartbeat logo mark.</desc>
+  <title id="title">HealthStory AI horizontal logo</title>
+  <desc id="desc">HealthStory AI wordmark with the H body signal logo mark.</desc>
   <defs>
     <linearGradient id="bg" x1="44" y1="28" x2="252" y2="292" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#17120F"/>
@@ -15,9 +15,10 @@
     </linearGradient>
   </defs>
   <rect x="20" y="20" width="280" height="280" rx="72" fill="url(#bg)"/>
-  <path d="M78 86h42l40 111 40-111h42l-59 148h-46L78 86Z" fill="#FFF8E8"/>
-  <path d="M80 171c25-44 50-44 73 0 14 25 27 31 39 12 8-12 15-19 34-19h25" fill="none" stroke="#8EE8C8" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="252" cy="164" r="16" fill="#F3B640"/>
-  <text x="340" y="180" fill="url(#word)" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="850">VitalTracker</text>
-  <path d="M420 226h450" stroke="#8EE8C8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M74 221V91h31v53h46V91h31v130h-31v-52h-46v52H74Z" fill="#FFF8E8"/>
+  <path d="M86 167c26-49 53-49 80 0 16 29 31 36 45 14 8-12 15-20 37-20" fill="none" stroke="#8EE8C8" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="249" cy="161" r="16" fill="#F3B640"/>
+  <text x="340" y="146" fill="url(#word)" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="850">HealthStory</text>
+  <text x="342" y="221" fill="#557074" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="750">AI</text>
+  <path d="M420 246h450" stroke="#8EE8C8" stroke-width="10" stroke-linecap="round"/>
 </svg>
